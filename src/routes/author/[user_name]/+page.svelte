@@ -19,7 +19,7 @@
 	<hgroup>
 		<div class="flex items-center">
 			<img
-				src="https://avatars.githubusercontent.com/u/58915711?v=4"
+				src={data.meta.pp_url}
 				height="100px"
 				width="100px"
 				class="rounded-full mr-4"

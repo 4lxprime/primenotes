@@ -2,6 +2,7 @@
 title: first post
 description: the first post of PrimeNotes!
 author: 4lxprime
+author_pp_url: https://avatars.githubusercontent.com/u/58915711?v=4
 date: '2023-08-30'
 tags:
   - sveltekit

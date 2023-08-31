@@ -4,6 +4,7 @@ export type Post = {
 	title: string
 	slug: string
 	author: string
+	author_pp_url: string
 	description: string
 	date: string
 	tags: Tags[]

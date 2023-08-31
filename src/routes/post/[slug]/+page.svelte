@@ -33,7 +33,7 @@
 							{data.meta.author}
 						</p>
 						<img
-							src="https://avatars.githubusercontent.com/u/58915711?v=4"
+							src={data.meta.author_pp_url}
 							height="50px"
 							width="50px"
 							class="rounded-full"
