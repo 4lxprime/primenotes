@@ -6,6 +6,8 @@ date: '2023-08-28'
 tags:
   - svelte
   - sveltekit
+  - golang
+  - gosvelt
 ---
 
 ## Table of Content
@@ -58,8 +60,8 @@ if you also want to see my codebase you can go to my **[Github](https://github.c
 
 ## My works ?
 ### GoSvelt
- My **[GoSvelt](https://github.com/4lxprime/Gosvelt)** framwork is made in golang and can be the perfect tool for the **[GOST](#my-personal-stack)** stack
- here you have an example of svelte pages compiled and served by **[GoSvelt](https://github.com/4lxprime/Gosvelt)** (this way is more 10 time faster than sveltekit but under development)
+ My **[GoSvelt](/post/gosvelt_framwork)** framwork is made in golang and can be the perfect tool for the **[GOST](#my-personal-stack)** stack
+ here you have an example of svelte pages compiled and served by **[GoSvelt](/post/gosvelt_framwork)** (this way is more 10 time faster than sveltekit but under development)
  ```go
  func main() {
 	r := gosvelt.New()

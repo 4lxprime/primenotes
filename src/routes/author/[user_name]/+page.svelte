@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as config from '$lib/config'
-	import { md as Md } from '$lib/components'
+	import { Md } from '$lib/components'
 
 	import { formatDate } from '$lib/utils'
 

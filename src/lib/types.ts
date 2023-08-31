@@ -1,4 +1,4 @@
-export type Tags = 'svelte' | 'sveltekit' | 'test'
+export type Tags = 'svelte' | 'sveltekit' | 'test' | 'gosvelt' | 'golang'
 
 export type Post = {
 	title: string

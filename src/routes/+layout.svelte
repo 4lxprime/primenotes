@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition'
 
-	import { header as Header, footer as Footer } from '$lib/components'
+	import { Header, Footer } from '$lib/components'
 
 	import type { LayoutData } from './$types'
 

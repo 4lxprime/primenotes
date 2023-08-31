@@ -2,7 +2,7 @@
 	import * as config from '$lib/config'
 	import type { MdData } from '$lib/types'
 	import { formatDate } from '$lib/utils.js'
-	import { md as Md } from '$lib/components'
+	import { Md } from '$lib/components'
 
 	export let data: MdData
 </script>
