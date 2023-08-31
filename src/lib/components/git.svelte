@@ -44,6 +44,9 @@
             case "PHP":
                 return tmpl+="border-[#4f5d95]"
 
+            case "V":
+                return tmpl+="border-[#4f87c4]"
+
             case "":
                 return tmpl+="border-[]"
 
