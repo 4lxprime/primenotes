@@ -1,13 +1,9 @@
-<script lang="ts">
-	export let content: any
-</script>
-
-<div class="post mt-6 mx-2">
-	<svelte:component this={content} />
-
-	<!--markdown style-->
-	<style>
-		.post h1,
+import { c as create_ssr_component, v as validate_component, m as missing_component } from "./ssr.js";
+const Md = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { content } = $$props;
+  if ($$props.content === void 0 && $$bindings.content && content !== void 0)
+    $$bindings.content(content);
+  return `<div class="post mt-6 mx-2">${validate_component(content || missing_component, "svelte:component").$$render($$result, {}, {}, {})}  <style data-svelte-h="svelte-1h0vpa7">.post h1,
 		.post h2,
 		.post h3,
 		.post h4,
@@ -69,7 +65,8 @@
 			margin-top: 8px;
 			margin-bottom: 8px;
 			padding: 6px;
-			overflow: auto;
-		}
-	</style>
-</div>
+		}</style></div>`;
+});
+export {
+  Md as M
+};

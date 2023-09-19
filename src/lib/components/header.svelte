@@ -15,7 +15,7 @@
 </script>
 
 <header class="mb-4 p-1 bg-zinc-800">
-	<nav class="flex mx-36">
+	<nav class="flex mx-1 sm:mx-36">
 		<a class="flex-none hover:text-blue-500 transition-all duration-300" href="/">
 			{config.title}
 		</a>
@@ -30,7 +30,7 @@
 			{/each}
 		</ul>
 
-		<p class="flex-none">
+		<p class="hidden flex-none sm:block">
 			{date}
 		</p>
 	</nav>

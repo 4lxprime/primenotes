@@ -13,7 +13,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="mx-40">
+<article class="mx-1 sm:mx-40">
 	<hgroup>
 		<div class="flex">
 			<div class="flex-grow">
@@ -26,7 +26,7 @@
 				</p>
 			</div>
 
-			<div class="flex-none">
+			<div class="hidden flex-none sm:block">
 				<a href="/author/{data.meta.author}">
 					<div class="pr-5 flex justify-center items-center">
 						<p class="px-2 hover:text-blue-500 transition-all duration-300">
