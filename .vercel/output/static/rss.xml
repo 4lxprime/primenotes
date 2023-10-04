@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+			<channel>
+				<title>PrimeNotes</title>
+				<description>the prime note blog</description>
+				<link></link>
+				<atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+				
+						<item>
+							<title>how is is fortnite working ?</title>
+							<description>null</description>
+							<link>/how_is_fortnite_working</link>
+							<guid isPermaLink="true">/how_is_fortnite_working</guid>
+							<pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>gosvelt framwork</title>
+							<description>what is and how to use gosvelt framwork that can serve svelte pages through golang</description>
+							<link>/gosvelt_framwork</link>
+							<guid isPermaLink="true">/gosvelt_framwork</guid>
+							<pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>first post</title>
+							<description>the first post of PrimeNotes!</description>
+							<link>/first_post</link>
+							<guid isPermaLink="true">/first_post</guid>
+							<pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
+						</item>
+					
+			</channel>
+		</rss>
