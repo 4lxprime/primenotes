@@ -1,1 +1,0 @@
-function f(n){return(n==null?void 0:n.length)!==void 0?n:Array.from(n)}const u="PrimeNotes";function c(n,e="medium",t="en"){const m=new Date(n.replaceAll("-","/"));return new Intl.DateTimeFormat(t,{dateStyle:e}).format(m)}export{f as e,c as f,u as t};
