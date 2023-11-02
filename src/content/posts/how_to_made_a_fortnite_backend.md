@@ -21,6 +21,7 @@ published: true
 
 # The Project
 I have developed a Fortnite backend in Golang, which is available [here](https://github.com/4lxprime/PrimeFNS). It currently supports Fortnite Battle Royale's Season 3 Chapter 1, but it is very basic at the moment. It does not have an account system or any session system. I will explain how it works in general, and at the end, I will enlighten you on what you can add.
+<Img src="/fnlobby.png" alt="fortnite lobby" />
 
 ## How does it work?
 A Fortnite backend works quite simply; it's an **HTTP server** that must respond to the game's requests. This backend server will handle the **account system** (login, locker, skin purchases), **save settings**, perform different **version checks** and **server status checks**, etc. (Note: these servers use **JSON** to communicate 98% of the time).<br><br>
@@ -95,7 +96,6 @@ The profiles are JSON files that all have this common structure and allow storin
 The content pages, as the name suggests, are used to display the news text, the available game modes, the different images, etc.
 
 A good example could be the `emergencynotice` part, which is the small message that we can see at the bottom of the screen when we are in the lobby.
-<Img src="src/content/images/fnemergencynotice.png" alt="emergencynotice" />
 ```json
  "emergencynotice": {
     "news": {
@@ -118,6 +118,7 @@ A good example could be the `emergencynotice` part, which is the small message t
     "_locale": "en-US"
   }
 ```
+<Img src="/fnemergencynotice.png" alt="emergencynotice" />
 
 ## What can we add?
 I don't know if I will implement these features in the future, but in any case, to make a good **remote** backend, it is necessary to have an [account system](#the-account-system) as well as a [session system](#the-session-system).

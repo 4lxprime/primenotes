@@ -42,6 +42,10 @@
 			font-weight: 500;
 		}
 
+		.post {
+			font-size: 20px;
+		}
+
 		.post a {
 			text-decoration: underline;
 		}

@@ -3,4 +3,6 @@
 	export let alt: string
 </script>
 
-<img {src} {alt} loading="lazy" />
+<div class="w-full my-6">
+	<img {src} {alt} loading="lazy" class="mx-auto" />
+</div>
