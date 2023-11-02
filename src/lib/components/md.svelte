@@ -22,24 +22,32 @@
 			font-weight: 900;
 		}
 		.post h2 {
-			font-size: 38px;
+			font-size: 42px;
 			font-weight: 800;
 		}
 		.post h3 {
-			font-size: 30px;
+			font-size: 38px;
 			font-weight: 700;
 		}
 		.post h4 {
-			font-size: 24px;
+			font-size: 34px;
 			font-weight: 600;
 		}
 		.post h5 {
-			font-size: 18px;
+			font-size: 30px;
 			font-weight: 600;
 		}
 		.post h6 {
-			font-size: 14px;
+			font-size: 26px;
 			font-weight: 500;
+		}
+
+		.post a {
+			text-decoration: underline;
+		}
+
+		.post .git {
+			text-decoration: none;
 		}
 
 		.post ul {

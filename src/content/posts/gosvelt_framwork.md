@@ -119,3 +119,8 @@ func main() {
  - [x] **WS** (Web Socket)
  - [x] **CSS Engine** (Tailwindcss)
  - [ ] Add layout system
+
+# Contact
+ You can contact me with:
+ - Email: idalxprime@gmail.com
+ - Discord: asprime

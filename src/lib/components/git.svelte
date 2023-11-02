@@ -60,7 +60,7 @@
     })
 </script>
 
-<a class="flex my-10 mx-2" href="https://github.com/{repo}" target="_blank">
+<a class="git flex my-10 mx-2 font-normal" href="https://github.com/{repo}" target="_blank">
     <div class={langColor(lang)}>
         <img src={githubLogo} alt="github logo" width={42} height={42} class="flex-none rounded-full">
     
